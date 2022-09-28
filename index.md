@@ -3,7 +3,7 @@
 ## This is Sparta!!!
 #Sparta 
 
-[Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[Click here to win 100 dollars](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ![Image](http://url/a.png)
 > LOL
