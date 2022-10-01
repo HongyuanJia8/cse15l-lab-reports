@@ -1,7 +1,7 @@
 # CSE15L Tutorial
 
 VScode is a very powerful code editor that includes a terminal. We will use the terminal in this lab. So the first thing we have to do is install VScode.
-Please go to this page to download and install [VScode]([http://a.com](https://code.visualstudio.com/))
+Please go to this page to download and install [VScode](https://code.visualstudio.com/)
 
 **Here is VScode**
 <img width="1021" alt="Screen Shot 2022-09-29 at 10 18 17 AM" src="https://user-images.githubusercontent.com/88987127/193385754-e30d2eb0-6b50-4991-ade8-44672598caab.png">
