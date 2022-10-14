@@ -34,7 +34,6 @@ Here are some specific useful commands to try:
 
 cd ~
 cd
-ls -lat
 ls -a
 ls <directory> where <directory> is /home/linux/ieng6/cs15lfa22/cs15lfa22abc, where the abc is one of the other group members’ username
 cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
@@ -42,6 +41,8 @@ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 ```
 "cd" command line can be used to change the directory. "cd~" means changing to user's home directory.
 "ls" displays the contents of a directory, "ls -a" lists all files in the current directory, 
+"cp" means copy, it can copy your files or directory.
+"cat" creates single or multiple files.
 Here is a example output:
 
 <img width="975" alt="Screen Shot 2022-09-30 at 4 17 37 PM" src="https://user-images.githubusercontent.com/88987127/193386211-15c2c7cf-06d6-4566-84aa-45a695e93a02.png">
@@ -67,7 +68,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 
 ```
 
-Once you have done that, you will see this if you press "ls"
+Once you have done that, you will see this if you go back to server by using "ssh" and press "ls"
 
 <img width="869" alt="Screen Shot 2022-09-30 at 4 39 31 PM" src="https://user-images.githubusercontent.com/88987127/193386611-540dd319-fb47-4eeb-9a29-b4187dc6339c.png">
 
@@ -112,6 +113,8 @@ $ ssh cs15lfa22@ieng6.ucsd.edu "ls"
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 ```
+At the end of "ssh", add some key words to directly run it on the remote server.
+Using semicolons to run multiple commands on the same line. This line copy the file, compile and run it.
 
 This is my example
 
