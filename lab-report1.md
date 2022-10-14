@@ -9,17 +9,20 @@ https://code.visualstudio.com/
 
 Once you downloaded the VScode, press"control" and "~" together. (The shortcut keys for mac and windows may be different)
 
+If you want to create a new terminal, you can press "control" + "shift" + "~".
 Let us start learning to use the terminal to operate the computer remotely:
 
 
 ---
 
 “ssh” is a keyword for remote access to a computer.
-Add the username  after "ssh". For example, this is my username
+Add the username  after "ssh". Your username can be found [over there](https://sdacs.ucsd.edu/~icc/index.php).Usually the format is "cs15lfa22**", the last two digit is unique. The full username is "cs15lfa22**" + "@ieng6.ucsd.edu".
+For example, this is my username
 ```
 ssh cs15lfa22@ieng6.ucsd.edu
 ```
-And then enter your password, you will see this.
+And then enter your password. Everyone need to set the password to activate their accounts. Here is a [Tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to set the password.
+Then you will see this.
 
 <img width="765" alt="Screen Shot 2022-09-30 at 2 43 35 PM" src="https://user-images.githubusercontent.com/88987127/193386121-d8b3f85e-0a51-405d-acd3-a11c4e1d95c8.png">
 
@@ -37,6 +40,8 @@ ls <directory> where <directory> is /home/linux/ieng6/cs15lfa22/cs15lfa22abc, wh
 cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 ```
+"cd" command line can be used to change the directory. "cd~" means changing to user's home directory.
+"ls" displays the contents of a directory, "ls -a" lists all files in the current directory, 
 Here is a example output:
 
 <img width="975" alt="Screen Shot 2022-09-30 at 4 17 37 PM" src="https://user-images.githubusercontent.com/88987127/193386211-15c2c7cf-06d6-4566-84aa-45a695e93a02.png">
