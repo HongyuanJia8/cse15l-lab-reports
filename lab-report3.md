@@ -36,3 +36,67 @@ Then, explain the connection between the symptom and the bug. Why does the bug c
 
 it should be "newArray[i] = arr[arr.length - i - 1];" and "return newArray;"
 it always changed the originial input, change it to 0. Becase newArray is empty.
+
+## Part 1
+```
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.*;
+
+class Handler implements URLHandler {
+    int num = 0;
+    public String handleRequest(URI url){
+        // System.out.println(url)
+        ArrayList<String> items = new ArrayList<String>();
+        if (url.getPath().equals("/"))
+        {
+            return String.format("List: %d", items);
+
+        }
+        else if(url.getPath().equals("/add"))
+        {
+            String[] parameters = url.getQuery().split("=");
+            if(parameters.length >= 2 && parameters[0].equals("s"))
+            {
+                items.add(parameters[1]);
+                return String.format("%s added", parameters[1]);
+            }
+
+            
+        }
+        else if(url.getPath().equals("/search"))
+        {
+            String[] parameters = url.getQuery().split("=");
+            if(parameters.length >= 2 && parameters[0].equals("s"))
+            {
+                ArrayList<String> output = new ArrayList<String>();
+                for (String s : items)
+                {
+                    if(s.contains(parameters[1]))
+                    {
+                        output.add(s);
+                    }
+                }
+                return String.format("%s", output.toString());
+            }
+        }
+        return "404 not found"; // 404
+    }
+}
+
+class SearchEngine{
+    public static void main(String[] args) throws IOException
+    {
+        if(args.length == 0)
+        {
+            System.out.println("The number should between 1024 and 49151");
+            return;
+        }
+
+        int p = Integer.parseInt(args[0]);
+
+        Server.start(p, new Handler());
+    }
+}
+```
