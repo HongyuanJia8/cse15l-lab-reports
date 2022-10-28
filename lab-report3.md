@@ -65,6 +65,14 @@ class SearchEngine{
 }
 ```
 
+<img width="567" alt="Screen Shot 2022-10-28 at 4 31 56 PM" src="https://user-images.githubusercontent.com/88987127/198750867-c56b2eff-4ba4-4d81-a523-d2dfec881387.png">
+
+<img width="548" alt="Screen Shot 2022-10-28 at 4 32 10 PM" src="https://user-images.githubusercontent.com/88987127/198750880-03a550e0-6a85-457f-9e64-9d4e9e9f6e64.png">
+
+<img width="481" alt="Screen Shot 2022-10-28 at 4 38 34 PM" src="https://user-images.githubusercontent.com/88987127/198750885-7a707fab-d167-47a5-ab3f-8172d0a9a955.png">
+
+Which methods in your code are called:  handleRequest
+What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: 
 
 ## First one is Merge in ListExample.java
 
