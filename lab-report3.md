@@ -74,7 +74,8 @@ The failure-inducing input
 
 The symptom (the failing test output)
 
-<img width="862" alt="Screen Shot 2022-10-14 at 10 22 19 PM" src="https://user-images.githubusercontent.com/88987127/195970377-3891413a-c263-4e09-a232-f72171175527.png">
+<img width="1039" alt="Screen Shot 2022-10-28 at 3 30 26 PM" src="https://user-images.githubusercontent.com/88987127/198745551-eda9f1cb-731e-48af-8a5f-bb85feee7dd9.png">
+
 
 The bug (the code fix needed)
 
