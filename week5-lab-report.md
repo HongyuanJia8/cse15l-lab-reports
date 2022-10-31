@@ -575,6 +575,9 @@ yuandeMacBook-Pro:plos hongyuan$
 **Display all files in sub-directories. It is useful because it is very efficient.**
 
 
+Horizontal rule:
+
+---
 
 
 find . -type d
@@ -644,6 +647,10 @@ yuandeMacBook-Pro:skill-demo1 hongyuan$ find . -type d
 **Display all the directory and sub-directory names. It is very useful becuase we can know the path of all directory.**
 
 
+Horizontal rule:
+
+---
+
 find . -type d -empty
 
 ```
@@ -665,4 +672,3 @@ yuandeMacBook-Pro:Tracker hongyuan$ find . -type d -empty
 ```
 
 **Display all the empty directories. It is very useful because it can easily show us which is empty **
-```
