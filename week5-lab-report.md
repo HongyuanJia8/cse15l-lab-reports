@@ -1,5 +1,7 @@
 # Week 5 Lab Report
 
+# Hello, professor. I do have some blocks and other formats, but it disappears if I save as pdf file. Please see my webpage for original one.
+
 # First One
 
 ```
