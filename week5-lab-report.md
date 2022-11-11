@@ -1,6 +1,6 @@
 # Week 5 Lab Report
 
-# Hello, professor. I do have some blocks and other formats, but it disappears if I save as pdf file. Please see my webpage for original one.
+# Hello, professor. I do have some blocks and other formats, but it disappears if I save as pdf file. Please see my webpage for original one. https://railgun5.github.io/cse15l-lab-reports/week5-lab-report.html
 
 # First One
 
