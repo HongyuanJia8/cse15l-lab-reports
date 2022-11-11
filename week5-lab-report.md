@@ -1,6 +1,12 @@
 # Week 5 Lab Report
 
+# First One
+
+```
 find . -type f
+
+```
+
 
 ```
 yuandeMacBook-Pro:technical hongyuan$ cd government
@@ -292,7 +298,7 @@ yuandeMacBook-Pro:government hongyuan$ find . -type f
 ./Media/Legal_Aid_campaign.txt
 ./Media/Aid_Gets_7_Million.txt
 ```
-
+**Display all sub-directories of goverment. It is a lot**
 
 ```
 yuandeMacBook-Pro:technical hongyuan$ cd 911report
@@ -315,6 +321,7 @@ yuandeMacBook-Pro:911report hongyuan$ find . -type f
 ./chapter-10.txt
 ./chapter-11.txt
 ```
+**Display all sub-directories of 911report**
 
 ```
 yuandeMacBook-Pro:plos hongyuan$ find . -type f
@@ -572,15 +579,17 @@ yuandeMacBook-Pro:plos hongyuan$ find . -type f
 ./pmed.0020242.txt
 yuandeMacBook-Pro:plos hongyuan$ 
 ```
-**Display all files in sub-directories. It is useful because it is very efficient.**
+**Display all files in sub-directories. It is useful because it is very efficient. Sometimes if we want to know what files are in the folder, it usually costs a lot of time to check it one by one. But we can use "find . -type f" to know the files in 1s. **
 
 
-Next one:
+# Next one:
 
 ---
 
-
+```
 find . -type d
+```
+
 
 ```
 yuandeMacBook-Pro:technical hongyuan$ find . -type d
@@ -597,6 +606,8 @@ yuandeMacBook-Pro:technical hongyuan$ find . -type d
 ./911report
 ```
 
+**Display all the directory and sub-directory names of technical. There are 10 directories and sub-directories in this folder**
+
 ```
 yuandeMacBook-Pro:technical hongyuan$ cd government
 yuandeMacBook-Pro:government hongyuan$ find . -type d
@@ -608,6 +619,8 @@ yuandeMacBook-Pro:government hongyuan$ find . -type d
 ./Post_Rate_Comm
 ./Media
 ```
+
+**Display the directory and sub-directories of of goverment. It is shorter because the amount of directory or sub-directory is less than previous one**
 
 ```
 yuandeMacBook-Pro:government hongyuan$ cd ..
@@ -644,26 +657,31 @@ yuandeMacBook-Pro:skill-demo1 hongyuan$ find . -type d
 ./technical/911report
 ```
 
-**Display all the directory and sub-directory names. It is very useful becuase we can know the path of all directory.**
+**Display all the directory and sub-directory names of skill-demo1. That is a lot because both technical and goverment are included. It is very useful becuase we can know the path of all directory. If we need to know a path or many, it is convenient if we use "find . -type d". **
 
 
-Next one:
+# Next one:
 
 ---
 
+```
 find . -type d -empty
+```
+
 
 ```
 yuandeMacBook-Pro:skill-demo1 hongyuan$ find . -type d -empty
 ./.git/objects/info
 ./.git/refs/tags
 ```
+**Display all the empty directories of skill-demo1. Now we know /.git/objects/info and /.git/refs/tags are empty**
 
 ```
 yuandeMacBook-Pro:wavelet hongyuan$ find . -type d -empty
 ./.git/objects/info
 ./.git/refs/tags
 ```
+**Display all the empty directories of wavelet**
 
 ```
 yuandeMacBook-Pro:~ hongyuan$ cd Tracker
@@ -671,4 +689,4 @@ yuandeMacBook-Pro:Tracker hongyuan$ find . -type d -empty
 .
 ```
 
-**Display all the empty directories. It is very useful because it can easily show us which is empty **
+**Display all the empty directories of a folder named Tracker. It is very useful because it can easily show us which is empty. Sometimes the empty one is useless, but we don't know which one is empty. Checking it one by one would be disaster for a lazy guy**
