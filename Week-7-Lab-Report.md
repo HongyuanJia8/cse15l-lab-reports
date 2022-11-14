@@ -7,22 +7,40 @@
 ```
 
 <img width="860" alt="Screen Shot 2022-11-14 at 12 04 24 AM" src="https://user-images.githubusercontent.com/88987127/201608054-11beee94-80a7-4ae8-adbc-b262403ee5f0.png">
-use "/start" to find start
+
+
+*use "/start" to find start*
+
 
 <img width="863" alt="Screen Shot 2022-11-14 at 12 04 36 AM" src="https://user-images.githubusercontent.com/88987127/201609062-1b093fd3-fe93-4bdf-b306-e2571d5cab89.png">
-use "ce" to replace the word, and now it is insert mode
+
+
+*use "ce" to replace the word, and now it is insert mode*
+
 
 <img width="861" alt="Screen Shot 2022-11-14 at 12 04 58 AM" src="https://user-images.githubusercontent.com/88987127/201609253-ae5f3e3d-cc47-4ac9-910e-72db55c8f344.png">
-type "base"
+
+
+*type "base"*
+
 
 <img width="862" alt="Screen Shot 2022-11-14 at 12 05 34 AM" src="https://user-images.githubusercontent.com/88987127/201609354-a0590f65-4450-424f-8f14-be4d71c50c88.png">
-use "n" to go to next start, and use "." to type base quickly (becasue we typed it before)
+
+
+*use "n" to go to next start, and use "." to type base quickly (becasue we typed it before)*
+
 
 <img width="865" alt="Screen Shot 2022-11-14 at 12 05 44 AM" src="https://user-images.githubusercontent.com/88987127/201609566-eb351a97-35d4-48a3-abdc-c4156241a51f.png">
-repeat above
+
+
+*repeat above*
+
 
 <img width="857" alt="Screen Shot 2022-11-14 at 12 06 19 AM" src="https://user-images.githubusercontent.com/88987127/201609640-9b616c8d-0ad5-4351-b2cf-434a4f2bb3cb.png">
-use ":w" to save the file
+
+
+*use ":w" to save the file*
+
 
 ## Part 2
 
