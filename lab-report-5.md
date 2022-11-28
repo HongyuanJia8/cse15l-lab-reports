@@ -54,11 +54,12 @@ set -e
 <img width="841" alt="Screen Shot 2022-11-27 at 10 59 39 PM" src="https://user-images.githubusercontent.com/88987127/204215443-455fbdc0-2275-4c67-91cc-5d756192efee.png">
 
 
-Trace:
+Trace: I choose the second one, which is the one that is correct
 
 ---
 
-<img width="681" alt="Screen Shot 2022-11-28 at 12 05 01 AM" src="https://user-images.githubusercontent.com/88987127/204225201-9477015c-35ba-47d8-a01a-ac6e6881a7c3.png">
+<img width="692" alt="Screen Shot 2022-11-28 at 10 38 52 AM" src="https://user-images.githubusercontent.com/88987127/204355103-cbdfe75c-84a4-4fed-bd46-7827989846ed.png">
+
 
 ```
 if [[ -f $FILENAME ]]
@@ -66,7 +67,8 @@ then
   echo "Correct: path exists and is a file"
 fi
 ```
-This condition was true in this example, because the path was correct and there was a correct file in it.
+
+This condition was true in this example, because the path was correct and there was a correct file in it. if[[-f]] means if the file exists, take actions based on the returned response. Since the file does exist, so print "Correct: path exists and is a file" to tell user that the system found this file successfully.
 
 ```
 if [[ -e $FILENAME ]]
@@ -77,14 +79,16 @@ else
 exit
 fi
 ```
-This condition was true, because the file name was correct.
+
+This condition was true, because the file name was correct. -e returns true if the target exists. Doesn't matter if it's a file, pipe, special device. In this case, the file exists, so print" Correct: File name is correct".
 
 ```
 else
   echo "Error! cannot find this file"
 exit
 ```
-This command does not run because it is in an if branch that doesn’t evaluate.
+
+This command does not run because it is in an if branch that doesn’t evaluate. The if statement was true, so it went to "then" statement. else statement was ignored.
 
 ```
 if [[ $? -eq 0 ]]
@@ -95,7 +99,9 @@ else
     grep "Tests run" Xiafile.txt 
 fi
 ```
+
 This condition was true, because the last command ran successfully with an exit code of 0 which leads to the if-condition here being evaluated to true.
+So the system prints "Tests all passes" to let user know.
 
 ```
 else
@@ -103,4 +109,4 @@ else
     grep "Tests run" Xiafile.txt 
 fi
 ```
-This command was skipped because it is in an if branch that doesn’t evaluate.
+This command was skipped because it is in an if branch that doesn’t evaluate. Once if statement is true, it won't go to else statement. So this one was ignored
